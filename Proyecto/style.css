@@ -1,0 +1,121 @@
+/* GENERAL*/
+section{
+  background-color: #010d23;
+  color:#e19f41
+}
+h1{
+  font-size: 2.5rem;
+  font-family: 'Cantata One', serif;
+  color: #e19f41;
+}
+h3, p{
+  color: #fccb6f;
+}
+
+/* SECCION CENTRAL*/
+section .central{
+  display:flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.central{
+  background-color: #010d23;
+  min-height: 450px;
+  text-align: center;
+}
+.central-principal{
+  padding: 3rem;
+}
+.central-imagen-programador {
+  width: 200px;
+  height: 200px;
+  margin: 20px;
+  border-radius: 50%;
+}
+.central p{
+  font-size: 1.5rem;
+}
+
+/* SECCION CONTACTO*/
+section .contacto {
+  padding: 40px 40px 60px 40px;
+}
+
+
+.contacto{
+  background-color: #fccb6f;
+  color: #072739;
+  font-family: 'Rozha One', serif;
+  font-size: 1.2rem;
+}
+
+.contacto .row {
+  
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
+}
+
+@media (min-width: 768px) {
+  .contacto .col-md-4 {
+    flex: 0 0 calc(33.333% - 1rem);
+    margin-bottom: 0;
+  }
+}
+
+.contacto button{
+  color: #010d23;
+  font-weight: bold;
+  background-color: transparent;
+  border: transparent;
+  padding: 1rem 2em;
+  margin: 10px;
+  transition: all 0.2s ease-in-out;
+}
+.contacto button:hover{
+  background-color:#010d23;
+  color:#e19f41;
+}
+.contacto button i{
+  color: #010d23;
+  font-size: 1.3rem;
+  transition: all o.2s ease-in-out;
+}
+.contacto button:hover i {
+  color:#ffbd59;
+}
+
+/* SECCION CONOCIMIENTO*/
+
+section .conocimiento{
+  padding: 40px 40px 60px 40px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.conocimiento .row {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+.conocimiento .columna{
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+/* EXPERIENCIA*/
+.experiencia .row {
+  display: flex;
+  justify-content: center;
+  padding: 20px;
+  align-items: center;
+  flex-direction: column; 
+}
+
